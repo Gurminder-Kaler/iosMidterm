@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="testMidterm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <subviews>
+                            <stackView autoresizesSubviews="NO" opaque="NO" contentMode="center" misplaced="YES" axis="vertical" distribution="equalSpacing" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="1QZ-r0-0om">
+                                <rect key="frame" x="30" y="109.00000000000003" width="330" height="646.33333333333337"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gLk-Zy-L9O">
+                                        <rect key="frame" x="0.0" y="0.0" width="330" height="18"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5gx-zh-583">
+                                                <rect key="frame" x="0.0" y="0.0" width="330" height="18"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.27524447279999997" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Shopping List">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="15"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="leftToRight" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <color key="highlightedColor" systemColor="systemGray3Color"/>
+                                                <color key="shadowColor" systemColor="opaqueSeparatorColor"/>
+                                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                                            </label>
+                                        </subviews>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="5gx-zh-583"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="subviews">
+                                                <include reference="5gx-zh-583"/>
+                                            </mask>
+                                        </variation>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="kmm-Sk-jbV">
+                                        <rect key="frame" x="0.0" y="74" width="330" height="34"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="edD-Ux-Y5L">
+                                                <rect key="frame" x="0.0" y="0.0" width="165" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.49321338383838387" green="0.46608965452779016" blue="0.41086905762044468" alpha="0.23308153973509929" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Enter the list name:">
+                                                        <attributes>
+                                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <font key="NSFont" metaFont="system" size="15"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="leftToRight" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <color key="highlightedColor" systemColor="opaqueSeparatorColor"/>
+                                                <color key="shadowColor" systemColor="opaqueSeparatorColor"/>
+                                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" id="9u3-Ih-cyl">
+                                                <rect key="frame" x="165" y="0.0" width="165" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Shopping List">
+                                                        <attributes>
+                                                            <color key="NSColor" systemColor="labelColor"/>
+                                                            <font key="NSFont" metaFont="system" size="14"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bWK-lv-C1f">
+                                        <rect key="frame" x="0.0" y="164" width="330" height="34"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="center" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter new list item" minimumFontSize="17" clearButtonMode="whileEditing" id="Jcv-Lb-Aiv">
+                                                <rect key="frame" x="0.0" y="0.0" width="197.66666666666666" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField toolTip="Quantity" opaque="NO" contentMode="center" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" id="zo7-YS-wQa">
+                                                <rect key="frame" x="197.66666666666666" y="0.0" width="38.333333333333343" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="0">
+                                                        <attributes>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <stepper opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="fill" contentVerticalAlignment="center" maximumValue="56" id="rCv-2E-5KG">
+                                                <rect key="frame" x="236" y="0.0" width="94" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.69665479659999996" green="0.51093978510000004" blue="0.1180040691" alpha="0.23777636050000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <connections>
+                                                    <action selector="stepperOne:" destination="BYZ-38-t0r" eventType="valueChanged" id="WBZ-Rb-Ama"/>
+                                                </connections>
+                                            </stepper>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4q8-Ff-NVU">
+                                        <rect key="frame" x="0.0" y="254" width="330" height="34"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="center" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter new list item" minimumFontSize="17" clearButtonMode="whileEditing" id="ajO-vq-Hee">
+                                                <rect key="frame" x="0.0" y="0.0" width="197.66666666666666" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField toolTip="Quantity" opaque="NO" contentMode="center" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" id="V9f-gf-rzY">
+                                                <rect key="frame" x="197.66666666666666" y="0.0" width="38.333333333333343" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="0">
+                                                        <attributes>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <stepper opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="fill" contentVerticalAlignment="center" maximumValue="100" id="yMf-HT-0Xp">
+                                                <rect key="frame" x="236" y="0.0" width="94" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.69665479659999996" green="0.51093978510000004" blue="0.1180040691" alpha="0.23777636050000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <connections>
+                                                    <action selector="stepperTwo:" destination="BYZ-38-t0r" eventType="valueChanged" id="8PH-M9-Ai8"/>
+                                                </connections>
+                                            </stepper>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VGb-M3-MmS">
+                                        <rect key="frame" x="0.0" y="343.66666666666669" width="330" height="34"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="center" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter new list item" minimumFontSize="17" clearButtonMode="whileEditing" id="7Ri-ea-pfx">
+                                                <rect key="frame" x="0.0" y="0.0" width="197.66666666666666" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField toolTip="Quantity" opaque="NO" contentMode="center" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" id="S7U-v1-bmt">
+                                                <rect key="frame" x="197.66666666666666" y="0.0" width="38.333333333333343" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="0">
+                                                        <attributes>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="thirdCount:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="yLZ-UG-GIc"/>
+                                                </connections>
+                                            </textField>
+                                            <stepper opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="fill" contentVerticalAlignment="center" maximumValue="100" id="CeT-5m-AM8">
+                                                <rect key="frame" x="236" y="0.0" width="94" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.69665479659999996" green="0.51093978510000004" blue="0.1180040691" alpha="0.23777636050000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <connections>
+                                                    <action selector="stepperThree:" destination="BYZ-38-t0r" eventType="valueChanged" id="FgU-gc-8Qj"/>
+                                                </connections>
+                                            </stepper>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sJZ-6L-SBA">
+                                        <rect key="frame" x="0.0" y="433.66666666666663" width="330" height="34"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="center" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter new list item" minimumFontSize="17" clearButtonMode="whileEditing" id="Cgj-3d-pdS">
+                                                <rect key="frame" x="0.0" y="0.0" width="197.66666666666666" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField toolTip="Quantity" opaque="NO" contentMode="center" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" id="0GK-jv-gqP">
+                                                <rect key="frame" x="197.66666666666666" y="0.0" width="38.333333333333343" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="0">
+                                                        <attributes>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <stepper opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="fill" contentVerticalAlignment="center" maximumValue="100" id="N9w-9g-4MF">
+                                                <rect key="frame" x="236" y="0.0" width="94" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.69665479659999996" green="0.51093978510000004" blue="0.1180040691" alpha="0.23777636050000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <connections>
+                                                    <action selector="stepperFour:" destination="BYZ-38-t0r" eventType="valueChanged" id="95O-jV-g8U"/>
+                                                </connections>
+                                            </stepper>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t1j-jG-tUA">
+                                        <rect key="frame" x="0.0" y="523.66666666666663" width="330" height="34"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="center" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter new list item" minimumFontSize="17" clearButtonMode="whileEditing" id="OPu-Lb-2Ah">
+                                                <rect key="frame" x="0.0" y="0.0" width="197.66666666666666" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField toolTip="Quantity" opaque="NO" contentMode="center" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" id="HlZ-ys-aBM">
+                                                <rect key="frame" x="197.66666666666666" y="0.0" width="38.333333333333343" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="0">
+                                                        <attributes>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <stepper opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="fill" contentVerticalAlignment="center" maximumValue="100" id="VQf-Z0-2eU">
+                                                <rect key="frame" x="236" y="0.0" width="94" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.69665479659999996" green="0.51093978510000004" blue="0.1180040691" alpha="0.23777636050000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <connections>
+                                                    <action selector="stepperFive:" destination="BYZ-38-t0r" eventType="valueChanged" id="fIf-7c-opd"/>
+                                                </connections>
+                                            </stepper>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="HGu-Tv-Ci4">
+                                        <rect key="frame" x="0.0" y="613.66666666666663" width="330" height="32.666666666666629"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWQ-rj-Zp0">
+                                                <rect key="frame" x="0.0" y="0.0" width="165" height="32.666666666666664"/>
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="[SAVE]">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="16" name="Menlo-Regular"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="saveBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CHS-s6-ClA"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGq-Kc-npR">
+                                                <rect key="frame" x="165" y="0.0" width="165" height="32.666666666666664"/>
+                                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="[CLEAR]">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="16" name="Menlo-Regular"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clearBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WgM-aJ-6cM"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="gLk-Zy-L9O"/>
+                                        <exclude reference="kmm-Sk-jbV"/>
+                                        <exclude reference="4q8-Ff-NVU"/>
+                                        <exclude reference="VGb-M3-MmS"/>
+                                        <exclude reference="sJZ-6L-SBA"/>
+                                        <exclude reference="t1j-jG-tUA"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="gLk-Zy-L9O"/>
+                                        <include reference="kmm-Sk-jbV"/>
+                                        <include reference="4q8-Ff-NVU"/>
+                                        <include reference="VGb-M3-MmS"/>
+                                        <include reference="sJZ-6L-SBA"/>
+                                        <include reference="t1j-jG-tUA"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="03p-6b-j3i"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="03p-6b-j3i" firstAttribute="bottom" secondItem="1QZ-r0-0om" secondAttribute="bottom" constant="54.666666666666629" id="LTa-LI-I0x"/>
+                            <constraint firstItem="1QZ-r0-0om" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NXd-KB-dXU"/>
+                            <constraint firstItem="1QZ-r0-0om" firstAttribute="top" secondItem="03p-6b-j3i" secondAttribute="top" constant="62" id="bK0-85-z3g"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="1QZ-r0-0om"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="1QZ-r0-0om"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="1QZ-r0-0om"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="countLabelFive" destination="HlZ-ys-aBM" id="2s6-wF-jEN"/>
+                        <outlet property="countLabelFour" destination="0GK-jv-gqP" id="dya-HP-1tp"/>
+                        <outlet property="countLabelOne" destination="zo7-YS-wQa" id="GEq-QE-ldg"/>
+                        <outlet property="countLabelThree" destination="S7U-v1-bmt" id="xK7-q8-VWw"/>
+                        <outlet property="countLabelTwo" destination="V9f-gf-rzY" id="NCG-fm-HgC"/>
+                        <outlet property="listName" destination="9u3-Ih-cyl" id="8dG-N0-6Bw"/>
+                        <outlet property="nameFive" destination="OPu-Lb-2Ah" id="viU-A3-2RG"/>
+                        <outlet property="nameFour" destination="Cgj-3d-pdS" id="2gt-Ht-0pV"/>
+                        <outlet property="nameOne" destination="Jcv-Lb-Aiv" id="iq0-AY-vNc"/>
+                        <outlet property="nameThree" destination="7Ri-ea-pfx" id="4yj-7r-Jfc"/>
+                        <outlet property="nameTwo" destination="ajO-vq-Hee" id="foj-gG-oR6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.07109004739337" y="3.0769230769230766"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
